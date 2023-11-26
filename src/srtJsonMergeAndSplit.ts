@@ -8,7 +8,9 @@ export type optionType = {
      * 每一份的尺寸
      */
     splitedItemCount: number, 
-
+    /**
+     * 拆分的起点, 如从头开始则设置 0
+     */
     splitedStart?: number, 
     /**
      * 拆分的终点, 如需拆分整个文件则设置为 1000000（超大数）或 undefined
