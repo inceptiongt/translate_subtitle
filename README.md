@@ -1,8 +1,8 @@
 # translate_subtitle
 通过 openAI 翻译英文字幕
 # 使用
-- 在 .env 中设置 openAI apikey、网络代理
-- 在 config.json 中设置源 srt 的文件路径等
+- 在 .env 中设置 openAI apikey
+- 在 config.json 中设置源 srt 的文件路径，网络代理，分割条件等
 # 实现
 - 把 srt 文件转换成 json
 - 合并字幕 item，把生硬截断的句子合并。

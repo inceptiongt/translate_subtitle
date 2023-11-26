@@ -11,9 +11,9 @@ import path from 'path'
 import 'dotenv/config'
 import { CompletionUsage } from "openai/resources/completions.js"
 import Ajv from 'ajv'
-import  {splitOptions, pricing} from './config.js'
+import  {splitOptions, pricing, SRT_FILE} from '../config.js'
 
-const originSrtFileUrl = process.env.SRT_FILE || ''
+const originSrtFileUrl = SRT_FILE
 
 const { name } = path.parse(originSrtFileUrl)
 const originSrtFilename = `${Date.now()}_${name}`

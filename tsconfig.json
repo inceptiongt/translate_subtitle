@@ -9,6 +9,6 @@
     "sourceMap": true,
     "outDir": "./lib",
   },
-  "include": [".eslintrc.js", "src/**/*"],
+  "include": [".eslintrc.js", "src/**/*", "config.ts"],
   "exclude": ["node_modules", "lib/**/*"],
 }

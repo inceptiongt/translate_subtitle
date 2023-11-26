@@ -4,7 +4,7 @@ import { promises as fs } from 'fs';
 import { pick } from 'lodash-es';
 import { srtObjType } from './srt2json.js'
 import { HttpsProxyAgent } from 'https-proxy-agent';
-import { model, proxy } from './config.js'
+import { model, proxy } from '../config.js'
 
 export type translatedObjectType = {
   /**
