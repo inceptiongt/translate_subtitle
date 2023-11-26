@@ -13,4 +13,5 @@
 - 转换为 srt 文件。
 # TODO
 - api 调用失败后支持重试
+- 把上一个 api 翻译的结果加入到下一个 api 的请求的 prompt 中。
 - 更友好的 console，比如添加 spin、select option 等。
