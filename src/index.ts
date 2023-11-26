@@ -15,8 +15,8 @@ import  {splitOptions, pricing} from './config.js'
 
 const originSrtFileUrl = process.env.SRT_FILE || ''
 
-const { name  } = path.parse(originSrtFileUrl)
-const originSrtFilename = `${Date.now()}_${name}}`
+const { name } = path.parse(originSrtFileUrl)
+const originSrtFilename = `${Date.now()}_${name}`
 let translatedJson: translatedObjectType[] = []
 let tokenUsaged:CompletionUsage = {
     prompt_tokens: 0,
